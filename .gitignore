@@ -1,0 +1,52 @@
+# Build output
+/build/
+/build-*/
+*.o
+*.ko
+*.a
+*.so
+*.so.*
+*.mod
+*.mod.c
+*.mod.o
+.*.cmd
+*.o.d
+Module.symvers
+modules.order
+.tmp_versions/
+*.dtb
+*.dtbo
+
+# Qt / qmake generated files and local settings
+Makefile.Debug
+Makefile.Release
+.qmake.stash
+.qmake.cache
+ui_*.h
+moc_*.cpp
+moc_predefs.h
+qrc_*.cpp
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# Runtime configuration and recordings
+device_monitor.ini
+records/
+*.csv
+
+# Editor / OS temporary files
+/.vscode/
+*.swp
+*.swo
+*~
+*.bak
+*.log
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env
+.env.*
+*.pem
+*.key

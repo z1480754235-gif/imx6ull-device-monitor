@@ -1,0 +1,2 @@
+#include "imx6ull-alientek-emmc.dts"
+#include "imx6ull-device-management.dtsi"
